@@ -9,6 +9,7 @@ header {
   position: fixed;
   z-index: 10;
   top: 0;
+  background: #E8DFE0;
 }
 
 header .row,
@@ -107,4 +108,9 @@ footer li img {
   position: relative;
   top: 60px;
   margin: 0 auto;
+}
+
+a:hover, a:active {
+  font-weight: bold;
+
 }
