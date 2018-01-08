@@ -1,66 +1,228 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
+<html lang="en">
+
 <head>
-  <title>Felicity Films</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="lollykrown" content="">
+
+    <title>Lollykrown</title>
+
+    <!-- icon -->
+    <!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> -->
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap itself -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet" type='text/css'>
 </head>
+
 <body>
-<header class="header">
-   <div class="row">
-     <h1 class="col-sm-4">Felicity Films</h1>
-     <nav class="col-sm-8 text-right">
-      <p><a href="#">newest</a></p>
-      <p><a href="#">catalogue</a></p>
-       <p><a href="#">contact</a></p>
-     </nav>
-  </div>
-  </header>
-  <section class="jumbotron">
-       <div class="container">
-         <div class="row text-center">
-        
-           <h2 class="test">Felicity Films</h2>
-           <h3>Filmmaker | Producer</h3>
-           <a class="btn btn-primary" href="#" role="button">More...</a>
-         </div>
+    <!-- navigation -->
+    <nav class="mainmenu ">
+        <div class="container">
+            <div class="dropdown">
+                <button type="button" class="navbar-toggle" data-toggle="dropdown">
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span> 
+                </button>
+                <!-- Dropdown trigger -->
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li><a href="#head" class="active">Hi there</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home section -->
+    <section class="section" id="head">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">
+                    <img class="img-thumbnail flex-center" src="images/profile.jpg" alt="user">
+                    <h1 class="h1-responsive wow fadeIn" id="my_name">Kay Agboola</h1></li>
+
+                    <p><a href="https://resume.github.io/?lollykrown" target="_blank" class="btn btn-default btn-lg">View Github Résumé</a></p>
+
+                </div>
+                <!-- /col -->
+
+        </div>
+<!-- /row -->
+
     </div>
-   </section>
- </div>
-  <section class="container">
-    <div class="row">
-      <figure class="col-sm-6">
-        <p>music videos</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg"/>
-      </figure>
-      <figure class="col-sm-6">
-        <p>comedy videos</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg" />
-      </figure>
+
+    </section>
+
+    <!-- About section -->
+    <section class="section" id="about">
+        <div class="container">
+
+            <h2 class="text-center title">About me</h2>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h5><strong>When it comes to Tech?<br></strong></h5>
+                    <p>Lollykrown is an IT enthusiast and a google fanboy. He posseses no programming background but thanks to Google/Andela who ignited the passion. He's a software Developer who dotes on Android sofware development. He loves to build stuffs that solves or attempts to solve real life problems. </p>
+                    <p>Lollykrown is an avid reader with history, psychology, science/science fiction, fantasy and African lit as his fav Genres. He's a curious fellow who enjoys learning and continuously strive to be a better version of himself in all aspects of life. </p>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <p class="green">He also hopes to flex his writing skills someday on
+                        <a href="https://medium.com/@lollykrown" target="_blank">Medium</a>. I just hope that the day would come, although, he once attempted this on <a href="https://lollykrown.blogspot.com.ng" target="_blank">Blogspot</a>.</p>
+                    <h5><strong>Well... He has another life outside Tech<br></strong></h5>
+                    <p>Lollykrown is a Practicing Psychiatric Nurse in Nigeria, You can check him out on <a href="https://www.linkedin.com/in/kayodeagboola/" target="_blank">LinkedIn</a>. Beside this, He loves to sleep, make new friends and he speaks fluent sarcasm. </p>
+                    <p>He also loves adventures, infact, he has done so many crazy things while seeking it out.</p>
+                    <p class="green">You can follow him on <a href="https://twitter.com/lollykrown" target="_blank">twitter</a>, He's there to catch fun and tries not to be boring. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container">
+
+            <h2 class="text-center title"> Portfolio </h2>
+            <p class="lead text-center green">
+                This part is still under construction, please do check back later. Thank you!
+            </p>
+            
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container">
+
+            <h2 class="text-center title">Get in touch</h2>
+
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <p class="lead">I will like to hear from you</p>
+                    <p>Feel free to email me</p>
+                    <p><b><a href="mailto:joe_kayu@yahoo.com">joe_kayu@yahoo.com</a></b><br><br></p>
+                    <ul class="list-inline list-social">
+                        <li><a href="https://twitter.com/lollykrown" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+                        <li><a href="https://github.com/lollykrown" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/kayodeagboola/" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--MODALS-->
+    <!-- Modal Contact -->
+    <div data-ng-app="contactApp" ng-model="modal" class="modal fade modal-ext" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" ng-controller="contactCtrl">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title text-xs-center" id="myModalLabel">Write to me</h4>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <p>I'll like to receive messages from you.</p>
+                    <br>
+
+                    <form name="contactForm" novalidate ng-submit="sendEmail(name,sender,subj,content)">
+                        <div class="md-form"
+                             ng-class="{'has-success':contactForm._name.$valid,'has-danger':contactForm._name.$dirty && contactForm._name.$invalid}">
+                            <i class="fa fa-user prefix"></i>
+                            <input ng-model="name" name="_name" type="text" id="name" class="form-control" ng-required="true">
+                            <label for="name" class="lbl">Your name</label>
+                        </div>
+
+                        <div class="md-form"
+                             ng-class="{'has-success':contactForm.email.$valid,'has-danger':contactForm.email.$dirty && contactForm.email.$invalid}">
+                            <i class="fa fa-envelope prefix"></i>
+                            <input ng-model="sender" name="email" type="email" id="email" class="form-control" ng-required="true">
+                            <label for="email" class="lbl">Your email</label>
+                        </div>
+
+                        <div class="md-form"
+                             ng-class="{'has-success':contactForm.subject.$valid,'has-danger':contactForm.subject.$dirty && contactForm.subject.$invalid}">
+                            <i class="fa fa-tag prefix"></i>
+                            <input ng-model="subj" type="text" name="subject" id="subject" class="form-control" ng-required="true">
+                            <label for="subject" class="lbl">Subject</label>
+                        </div>
+
+                        <div class="md-form"
+                             ng-class="{'has-success':contactForm.message.$valid,'has-danger':contactForm.message.$dirty && contactForm.message.$invalid}">
+                            <i class="fa fa-pencil prefix"></i>
+                            <textarea ng-model="content" type="text" name="message" id="message" class="md-textarea" ng-required="true"></textarea>
+                            <label for="message" class="lbl">Message</label>
+                        </div>
+                        <div class="md-form">
+                            <input type="text" name="_gotcha" class="hidden-xs-up" />
+                            <input type="hidden" name="_next" value="/"/>
+                        </div>
+
+                        <div class="text-xs-center">
+                            <button ng-disabled="contactForm.$invalid" type="submit" class="btn btn-primary">Submit  &nbsp;<i class="fa fa-spinner fa-spin" ng-if="loading==true"></i></button>
+                        </div>
+                    </form>
+
+                    <div class="text-xs-center">
+                        <div ng-if="statusPos" class="alert alert-success text-xs-left" role="alert">
+                            <span class="fa fa-check" aria-hidden="true"></span>
+                            <span class="sr-only">Error:</span>
+                            {{statusPos}}
+                            <button type="button" class="close pull-right" aria-label="Close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div ng-if="statusNeg" class="alert alert-danger text-xs-left" role="alert">
+                            <span class="fa fa-exclamation-triangle" aria-hidden="true"></span>
+                            <span class="sr-only">Error:</span>
+                            {{statusNeg}}
+                            <button type="button" class="close pull-right" aria-label="Close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="call">
+                            <p>Or would you prefer to call? <span class="cf-phone"><i class="fa fa-phone"> +2347062592846</i></span></p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!--Footer-->
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                <!--</div>-->
+            </div>
+            <!--/.Content-->
+        </div>
     </div>
-    <div class="row">
-      <figure class="col-sm-6">
-        <p>gospel</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
-      </figure>
-      <figure class="col-sm-6">
-        <p>others</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg"/>
-      </figure>
-    </div>
-  </section>
-  <footer class="container">
-    <div class="row">
-      <p class="col-sm-4">&copy; 2017 <a href="https://twitter.com/Lollykrown" target="_blank">Ol&#250;wak&#225;y&#242;d&#233;</a></p>
-      <ul class="col-sm-8">
-        <li class="col-sm-1"><a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></a></li>
-        <li class="col-sm-1"><a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></a></li>
-        <li class="col-sm-1"><a href="#"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></a></li>        
-      </ul>
-    </div>
-  </footer>
+
+    <!-- javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- custom js-->
+    <script src="main.js"></script>
+    <script src="typed.js"></script>
+
 </body>
+
 </html>
