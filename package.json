@@ -1,0 +1,15 @@
+{
+  "name": "The charge Tv",
+  "description": "a media site",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "video",
+    "charge",
+    "tv",
+    "Nigeria"
+  ],
+  "author": "Kayode Agboola",
+  "license": "MIT",
+  "homepage": "/index.html"
+}

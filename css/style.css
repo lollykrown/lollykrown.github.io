@@ -1,0 +1,135 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+    position: relative;
+}
+#mainc {
+    background-color: #020304;
+}
+
+.modal-iframe-wrapper {
+ overflow: hidden;
+ border-radius: 10px;
+ width: 100%;
+ height: 315px;
+ background: #020304;
+ margin-bottom: 20px;
+}
+iframe { width: 100%; height: 100%; border: 0; }
+.navbar {
+    margin-bottom: 0px;
+    padding: 20px 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+}
+.navbar img {
+    width: 70%;
+    height: 70%;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+aside {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 40px;
+}
+article {
+    padding: 40px;
+}
+article img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+}
+article p {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .navbar img {
+        width: 20%;
+        height: 20%;
+        margin: 10px;
+    }
+
+}
+
+
+/* The following code is used to create same-sized columns 
+   in a multi-column layout.
+   Code from:  
+   http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+*/
+/* columns of same height styles */
+.container-xs-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+}
+.row-xs-height {
+    display:table-row;
+}
+.col-xs-height {
+    display:table-cell;
+    float:none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-sm-height {
+        display:table-row;
+    }
+    .col-sm-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 992px) {
+    .container-md-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-md-height {
+        display:table-row;
+    }
+    .col-md-height {
+        display:table-cell;
+        float:none;
+    }
+}
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display:table;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .row-lg-height {
+        display:table-row;
+    }
+    .col-lg-height {
+        display:table-cell;
+        float:none;
+    }
+}
