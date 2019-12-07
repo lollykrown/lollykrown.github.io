@@ -1,15 +1,44 @@
 {
-  "name": "The charge Tv",
-  "description": "a media site",
+  "title": "Portfolio",
+  "name": "lollykrown",
   "version": "1.0.0",
-  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=* & node app.js",
+    "lint": "eslint app.js"
+  },
+  "description": "A portfolio from grayscale one page HTML theme for Bootstrap.",
   "keywords": [
-    "video",
-    "charge",
-    "tv",
-    "Nigeria"
+    "css",
+    "sass",
+    "html",
+    "responsive"
   ],
-  "author": "Kayode Agboola",
+  "homepage": "https://lollykrown.com",
   "license": "MIT",
-  "homepage": "/index.html"
+  "author": "Lollykrown",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "chalk": "1.1.3",
+    "debug": "2.6.6",
+    "express": "4.15.2",
+    "jquery": "3.2.1",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
+  }
 }

@@ -1,13 +1,39 @@
-'use strict';
 const CACHE_NAME = 'SITE_CONTENT_V1';
 
 const urlsToCache = [
-    // /root
-    '/TheChargeTv/index.html',
-    '/TheChargeTv/css/style.css',
-    '/TheChargeTv/css/bootstrap.min.css',
-    '/TheChargeTv/js/index.js'
-];
+            // /root
+            // '/lollykrown',
+            '/lollykrown/index.html',
+            '/lollykrown/favicon.ico',
+            '/lollykrown/package.json',
+            '/lollykrown/offline.html',
+            '/lollykrown/index.js',
+        
+            '/lollykrown/public/css/grayscale.css',
+            '/lollykrown/public/css/grayscale.min.css',
+            '/lollykrown/public/img/bg-header.jpg',
+            '/lollykrown/public/img/bg-masthead.jpg',
+            '/lollykrown/public/img/bg-signup.jpg',
+            '/lollykrown/public/img/demo-image-01.jpg',
+            '/lollykrown/public/img/demo-image-02.jpg',
+            '/lollykrown/public/img/ipad-size.png',
+            '/lollykrown/public/img/ipad.png',
+            '/lollykrown/public/img/mobi_health.png',
+            '/lollykrown/public/img/other_facts.jpg',
+            '/lollykrown/public/img/placeholder.jpg',
+            '/lollykrown/public/img/placeholder2.jpg',
+            '/lollykrown/public/img/rccgdc.png',
+            '/lollykrown/public/img/what_i_do.jpg',
+            '/lollykrown/public/js/grayscale.js',
+            '/lollykrown/public/js/grayscale.min.js',
+            '/lollykrown/public/js/jquery.easing.compatibility.js',
+            '/lollykrown/public/js/jquery.easing.js',
+            '/lollykrown/public/js/jquery.easing.min.js',
+            '/lollykrown/public/vendor/bootstrap/css/bootstrap.css',
+            '/lollykrown/public/vendor/bootstrap/css/bootstrap.min.css',
+            '/lollykrown/public/vendor/bootstrap/js/bootstrap.js',
+            '/lollykrown/public/vendor/bootstrap/js/bootstrap.min.js'
+        ];
 
 self.addEventListener('install', installer  => {
     console.log('Installing');
@@ -40,10 +66,10 @@ self.addEventListener('fetch', fetchEvent => {
         try {
             response = await fetch(request);
             if(response && response.status === 404) {
-                return caches.match('/TheChargeTv/404.html');
+                return caches.match('/lollykrown/404.html');
             }
         } catch (e) {
-            return caches.match('/TheChargeTv/404.html');
+            return caches.match('/lollykrown/offline.html')
         }
 
         const clone = response.clone();
