@@ -17,7 +17,6 @@ const urlsToCache = [
             '/lollykrown/public/img/demo-image-01.jpg',
             '/lollykrown/public/img/demo-image-02.jpg',
             '/lollykrown/public/img/ipad-size.png',
-            '/lollykrown/public/img/ipad.png',
             '/lollykrown/public/img/mobi_health.png',
             '/lollykrown/public/img/other_facts.jpg',
             '/lollykrown/public/img/placeholder.jpg',
