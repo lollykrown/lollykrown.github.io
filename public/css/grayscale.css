@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #607D8B;
+  border: 1px solid #607D8B;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #607D8B;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #607D8B;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #607D8B;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #607D8B;
   }
 }
 
@@ -182,7 +182,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #607D8B;
   }
 }
 
@@ -211,7 +211,7 @@
   background-size: cover;
 }
 
-.signup-section .form-inline input {
+.signup-section .form-inline input, textarea {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -228,7 +228,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #607D8B;
 }
 
 .contact-section .card h4 {
@@ -272,7 +272,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #607D8B;
 }
 
 a:focus, a:hover {
@@ -299,9 +299,20 @@ footer {
 input:focus, textarea:focus {
   border: 1px solid #336adf;
   width: 100%;
+  text-transform: uppercase;
 }
 
 #form-msg {
   height: 8rem;
 }
 
+#lollyk span {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.1s;
+    cursor:url('http://csscursor.info/source/santahand.png'), default;
+}
+#lollyk span:hover {
+    transform:translateY(-20px) scale(2) rotate(10deg);
+    z-index: 1;
+}
